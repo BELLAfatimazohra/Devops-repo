@@ -1,0 +1,30 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (contain sensitive info)
+*.tfstate
+*.tfstate.backup
+
+# Variable files with secrets
+*.tfvars
+
+# Backup files
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# SSH keys (private keys should never be pushed!)
+*.pem
+key.pem
+key-secure.pem
+
+# Logs
+*.log
