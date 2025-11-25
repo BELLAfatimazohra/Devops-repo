@@ -6,8 +6,7 @@
 *.tfstate
 *.tfstate.backup
 
-# Variable files with secrets
-*.tfvars
+
 
 # Backup files
 *.bak
